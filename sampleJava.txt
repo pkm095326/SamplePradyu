@@ -1,0 +1,17 @@
+package Day1;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class ArrayList1 {
+	public static void main(String[] args) {
+	   List<String> l = new ArrayList<String>();
+       l.add("White");
+       l.add("Black");
+       l.add("Blue");
+       System.out.println(l+" ");
+       l.remove(2);
+       System.out.println("After remove " + l);
+
+}
+}
